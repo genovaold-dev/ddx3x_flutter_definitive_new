@@ -1,0 +1,24 @@
+name: ddx3x_app
+description: DDX3X official app
+publish_to: "none"
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.8.0
+  firebase_core: ^2.17.0
+  firebase_messaging: ^14.7.10
+  url_launcher: ^6.3.0
+  image_picker: ^1.1.2
+  flutter_inappwebview: ^6.0.0
+  flutter_launcher_icons: ^0.14.1
+  flutter_native_splash: ^2.4.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/
+    - assets/splash/
